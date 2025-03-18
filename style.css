@@ -1,0 +1,324 @@
+/* --- General Page Styling --- */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #1E2A78, #9C27B0); /* Modern Gradient */
+    color: white;
+    text-align: center;
+}
+
+/* --- Header Styling --- */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* --- Profile Picture Styling --- */
+.profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid white;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect */
+.profile-pic:hover {
+    transform: scale(1.1);
+}
+
+/* --- Navigation Bar --- */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+/* Navbar Hover Effect */
+nav ul li a:hover {
+    background: #FFC107;
+    color: black;
+}
+
+/* --- Hero Section --- */
+.hero {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    max-width: 600px;
+    margin: auto;
+    line-height: 1.6;
+}
+
+/* --- Buttons --- */
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    font-size: 18px;
+    color: white;
+    background: #FF5733;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #FFC107;
+    color: black;
+}
+
+/* --- Sections Styling --- */
+section {
+    padding: 50px 20px;
+    margin: 30px auto;
+    max-width: 800px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+/* --- Projects List --- */
+ul {
+    text-align: left;
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* --- Academics Section --- */
+#academics {
+    padding: 50px 20px;
+    margin: 30px auto;
+    max-width: 800px;
+    background: rgba(255, 255, 255, 0.1); /* Matching background */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+#academics h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#academics ul {
+    text-align: left;
+    list-style: none;
+    padding: 0;
+}
+
+#academics ul li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+#academics a {
+    color: #FFC107; /* Highlight link color */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#academics a:hover {
+    text-decoration: underline;
+}
+
+
+/* --- Resume Section --- */
+#resume a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background: #FF5733;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+#resume a:hover {
+    background: #FFC107;
+    color: black;
+}
+
+/* --- Contact Form --- */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 500px;
+    margin: auto;
+}
+
+input, textarea {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    background: #FF5733;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #FFC107;
+    color: black;
+}
+
+#blog {
+    padding: 50px 20px;
+    margin: 30px auto;
+    max-width: 800px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+#blog h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#blog-posts {
+    text-align: left;
+}
+
+.blog-post {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.blog-post h3 {
+    margin: 0;
+    color: #FFC107;
+}
+
+.blog-post p {
+    font-size: 16px;
+}
+
+#login-form {
+    margin-top: 20px;
+}
+
+#login-form input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+}
+
+#login-btn, #publish-btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background: #FF5733;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#login-btn:hover, #publish-btn:hover {
+    background: #FFC107;
+    color: black;
+}
+
+#blog-form {
+    margin-top: 20px;
+    display: none; /* Hidden until logged in */
+}
+
+#blog-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+/* --- Social Links Section --- */
+.social-links {
+    text-align: center;
+    padding: 30px 20px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 40px auto;
+    width: 80%;
+}
+
+.social-links h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.icons a img {
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.icons a:hover img {
+    transform: scale(1.2);
+}
+
+/* --- Footer --- */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    margin-top: 40px;
+}
